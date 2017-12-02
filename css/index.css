@@ -1,0 +1,285 @@
+/* 导入 字体文件 */
+@font-face {
+  font-family: 'wjsfont';
+  src: url('../font/MiFie-Web-Font.eot');
+  src: url('../font/MiFie-Web-Font.eot?#iefix') format('embedded-opentype'), url('../font/MiFie-Web-Font.woff') format('woff'), url('font/MiFie-Web-Font.ttf') format('truetype'), url('../font/MiFie-Web-Font.svg') format('svg');
+}
+/* 定义 使用的class */
+.wjsfont {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'wjsfont';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+.wjsfont-logo::before {
+  content: '\e920';
+}
+.wjsfont-name::before {
+  content: '\e921';
+}
+.wjsfont-e903::before {
+  content: '\e903';
+}
+.wjsfont-e901::before {
+  content: '\e901';
+}
+.wjsfont-e904::before {
+  content: '\e904';
+}
+.wjsfont-e905::before {
+  content: '\e905';
+}
+.wjsfont-e902::before {
+  content: '\e902';
+}
+/* 添加 产品列表的 文字样式 */
+.wjsfont-e915::before {
+  content: '\e915';
+}
+.wjsfont-new01::before {
+  content: "\e90e";
+}
+.wjsfont-new02::before {
+  content: "\e90f";
+}
+.wjsfont-new03::before {
+  content: "\e910";
+}
+.wjsfont-new04::before {
+  content: "\e911";
+}
+/* 网页 最下方的 合作单位 */
+.wjsfont-partner01::before {
+  content: "\e946";
+}
+.wjsfont-partner02::before {
+  content: "\e92f";
+}
+.wjsfont-partner03::before {
+  content: "\e92e";
+}
+.wjsfont-partner04::before {
+  content: "\e92a";
+}
+.wjsfont-partner05::before {
+  content: "\e929";
+}
+.wjsfont-partner06::before {
+  content: "\e931";
+}
+.wjsfont-partner07::before {
+  content: "\e92c";
+}
+.wjsfont-partner08::before {
+  content: "\e92b";
+}
+.wjsfont-partner09::before {
+  content: "\e92d";
+}
+.top_tool a {
+  position: relative;
+}
+.top_tool img {
+  position: absolute;
+  top: 20px;
+  left: -2px;
+  display: none;
+  z-index: 3;
+}
+.top_tool .container-fluid .row > div {
+  border: 1px solid #000;
+  border-top: none;
+  border-left: none;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.top_tool .container-fluid .row > div a {
+  color: #808080;
+}
+.top_tool .container-fluid .row > div .btn {
+  color: #fff;
+}
+.top_tool .container-fluid .row > div:nth-of-type(1):hover img {
+  display: block;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.navbar .navbar-nav > li > a {
+  line-height: 80px;
+  padding: 0 15px;
+}
+.navbar a {
+  height: 80px;
+}
+.navbar a:hover,
+.navbar a:focus {
+  border-bottom: 1px solid red;
+}
+.navbar .navbar-brand {
+  padding: 0;
+}
+.navbar .wjsfont {
+  padding-top: 30px;
+  line-height: 20px;
+}
+.navbar .wjsfont:nth-child(1) {
+  color: red;
+  font-size: 75px;
+}
+.navbar .wjsfont:nth-child(2) {
+  font-size: 75px;
+}
+.wjs_carousel img {
+  width: 100%;
+}
+.wjs_exchange {
+  padding: 50px 0;
+}
+.wjs_exchange a {
+  color: #808080;
+  margin-bottom: 20px;
+}
+.wjs_exchange .wjsfont {
+  font-size: 40px;
+}
+.wjs_waitting {
+  padding: 30px 0;
+  border: 1px solid #000;
+}
+.wjs_waitting .pull-left a {
+  color: red;
+}
+.wjs_waitting .pull-right a {
+  color: black;
+}
+.wjs_buy .col-lg-4 {
+  margin-top: 20px;
+}
+.wjs_buy .col-lg-4 .card_default {
+  background-color: #f7f7f7;
+}
+.wjs_buy .col-lg-4 .card_red {
+  background-color: red;
+  color: #fff;
+  position: relative;
+}
+.wjs_buy .col-lg-4 .card_red span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 40px;
+}
+.wjs_buy .col-lg-4 .card_red .wtz_right {
+  border-left: 1px dashed #fff;
+}
+.wjs_buy .col-lg-4 a {
+  position: relative;
+  display: block;
+  text-align: center;
+  color: #969696;
+  box-shadow: 0px 0px 7px 1px #666;
+  padding-right: 75px;
+  padding-top: 20px;
+}
+.wjs_buy .col-lg-4 a .wtz_left {
+  padding: 0 10px;
+}
+.wjs_buy .col-lg-4 a .wtz_left .pull-right {
+  text-align: right;
+  width: 50%;
+}
+.wjs_buy .col-lg-4 a .wtz_right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 75px;
+  padding-top: 50px;
+  border-left: 1px dashed #000;
+  height: 100%;
+}
+.wjs_buy .col-lg-4 a .wtz_right span:nth-child(1) {
+  border: 1px solid green;
+  color: green;
+}
+.wjs_buy .col-lg-4 a .wtz_right span:nth-of-type(2) {
+  border: 1px solid red;
+  color: red;
+}
+.wjs_buy .col-lg-4 a .wtz_right::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1px 2px #666;
+}
+.wjs_news .news_title {
+  border-bottom: 1px solid #000;
+  font-size: 30px;
+  position: relative;
+}
+.wjs_news .news_title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(100%, 50%);
+  width: 10px;
+  height: 10px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.wjs_news .news_tab .line {
+  width: 0;
+  height: 84%;
+  border-left: 1px dashed #000;
+  position: absolute;
+  top: 7px;
+  left: 64px;
+}
+.wjs_news .news_tab ul {
+  padding-left: 0;
+  list-style: none;
+}
+.wjs_news .news_tab ul li {
+  margin-bottom: 50px;
+}
+.wjs_news .news_tab ul li a {
+  background-color: #cccccc;
+  font-size: 50px;
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+}
+.wjs_news .news_tab ul li a:hover,
+.wjs_news .news_tab ul li a:focus {
+  background-color: red;
+}
+.wjs_news .news_tab ul li a span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer {
+  text-align: center;
+}
+footer a span {
+  font-size: 80px;
+  color: #808080;
+  margin: 0 10px;
+}
